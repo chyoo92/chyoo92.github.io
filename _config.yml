@@ -1,0 +1,26 @@
+title:              Eru note
+email:              yewzzang@khu.ac.kr
+description:        
+author:             chyoo
+baseurl:            
+url:                "https://chyoo92.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    chyoo
+facebook_username:  
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+remote_theme : StartBootstrap/startbootstrap-clean-blog-jekyll
